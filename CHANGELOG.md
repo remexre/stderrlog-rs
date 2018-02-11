@@ -1,5 +1,11 @@
 # ChangeLog
 
+## 0.3.0
+
+### Changed
+
+- Now depends on clap 0.4.1.
+
 ## 0.2.3
 
 ### Added

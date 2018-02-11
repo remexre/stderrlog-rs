@@ -10,11 +10,11 @@ name = "stderrlog"
 readme = "README.md"
 changelog = "CHANGELOG.md"
 repository = "https://github.com/cardoe/stderrlog-rs"
-version = "0.2.4-pre"
+version = "0.3.0"
 
 [dependencies]
 chrono = "0.4"
-log = "0.3"
+log = { version = "0.4.1", features = ["std"] }
 termcolor = "0.3.3"
 thread_local = "0.3"
 
